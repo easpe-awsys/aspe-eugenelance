@@ -5,7 +5,7 @@ O integer: getAgeInRange(minAge, maxAge)
         age <- input
 
         //Check if the input age is a valid number
-        if(age is a number)
+        if(age is not a valid number)
             output "Invalid input. Please enter a valid Number"
             continue
         endif
